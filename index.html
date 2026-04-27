@@ -3,55 +3,78 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="facebook-domain-verification" content="COLE_SEU_CODIGO_AQUI">
-<title>Empresa</title>
+
+<!-- 🔐 COLE A META TAG AQUI -->
+<meta name="facebook-domain-verification" content="SEU_CODIGO_AQUI">
+
+<title>Ld E-Commerce LTDA</title>
+
 <style>
 body { font-family: Arial; margin:0; background:#0f172a; color:#fff; }
-header { padding:40px; text-align:center; background:#020617; }
+header { padding:50px 20px; text-align:center; background:#020617; }
+h1 { margin:0; font-size:32px; }
 section { padding:30px; max-width:900px; margin:auto; }
 .card { background:#111827; padding:20px; border-radius:10px; margin-bottom:20px; }
 a { color:#60a5fa; }
-.button { background:#2563eb; padding:10px 15px; border-radius:6px; color:#fff; text-decoration:none; }
+.button { background:#2563eb; padding:12px 18px; border-radius:6px; color:#fff; text-decoration:none; display:inline-block; margin-top:10px; }
 </style>
-<script>
-const config = {
-  empresa: "NOME DA EMPRESA",
-  descricao: "Soluções digitais",
-  cnpj: "00.000.000/0001-00",
-  email: "contato@email.com",
-  telefone: "(00) 00000-0000",
-  whatsapp: "5500000000000"
-};
-</script>
 </head>
+
 <body>
+
 <header>
-<h1 id="empresa"></h1>
-<p id="descricao"></p>
+  <h1>Ld E-Commerce</h1>
+  <p>Comércio varejista e soluções em e-commerce</p>
 </header>
+
 <section>
+
 <div class="card">
-<h2>Sobre</h2>
-<p><strong>CNPJ:</strong> <span id="cnpj"></span></p>
+<h2>Sobre a Empresa</h2>
+<p><strong>Razão Social:</strong> Ld E-Commerce LTDA</p>
+<p><strong>CNPJ:</strong> 53.705.153/0001-09</p>
+<p><strong>Situação:</strong> Ativa</p>
+<p><strong>Localização:</strong> Arapongas - PR</p>
+
+<p>
+A Ld E-Commerce LTDA atua no comércio varejista, com foco na venda de móveis, artigos para o lar e produtos diversos,
+oferecendo soluções práticas e acessíveis para consumidores em todo o Brasil.
+</p>
 </div>
+
+<div class="card">
+<h2>Atividades</h2>
+<p>• Comércio varejista de móveis</p>
+<p>• Produtos para casa e escritório</p>
+<p>• Artigos de decoração e utilidades</p>
+<p>• Operações de e-commerce</p>
+</div>
+
 <div class="card">
 <h2>Contato</h2>
-<p>Email: <span id="email"></span></p>
-<p>Telefone: <span id="telefone"></span></p>
-<a id="whatsapp" class="button" target="_blank">WhatsApp</a>
+<p>Email: contato@ldecommerce.com</p>
+<p>Telefone: (43) 99999-9999</p>
+
+<a href="https://wa.me/5543999999999" class="button" target="_blank">
+Fale no WhatsApp
+</a>
 </div>
+
 <div class="card">
+<h2>Endereço</h2>
+<p>Avenida Aracari Negro, 402</p>
+<p>Bairro Jardim Residencial Vicentin</p>
+<p>Arapongas - PR</p>
+<p>CEP: 86715-639</p>
+</div>
+
+<div class="card">
+<h2>Informações Legais</h2>
 <p><a href="privacidade.html">Política de Privacidade</a></p>
 <p><a href="termos.html">Termos de Uso</a></p>
 </div>
+
 </section>
-<script>
-document.getElementById("empresa").innerText = config.empresa;
-document.getElementById("descricao").innerText = config.descricao;
-document.getElementById("cnpj").innerText = config.cnpj;
-document.getElementById("email").innerText = config.email;
-document.getElementById("telefone").innerText = config.telefone;
-document.getElementById("whatsapp").href = "https://wa.me/" + config.whatsapp;
-</script>
+
 </body>
 </html>
